@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu programa</title>
+
+        <style>
+             body{
+                background-image: url(coracao.gif);
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font: normal 20pt Arial;
+        
+        
+        }
+        
+             .container{
+            text-align: center;
+            font-size: 70x; /* Tamanho do texto no botão */
+            height: 600px; /* Altura do botão */
+            
+        }
+        .text{
+            text-align: center;
+            font-size: 40px;
+            font: normal 40pt Arial;
+        }
+        .titulo {
+            text-align: center;
+            font-size: 200xp;
+        }
+        .botao{
+            font-size: 40px; /* Tamanho do texto dentro do botão */
+            height: 100px; /* Altura do botão */
+            width: 200px; /* Largura do botão */
+        }
+
+        </style>
+</head>
+<body>
+    <h1 class="titulo">Oii mãe</h1>
+    <br>                                                            
+    <p class="text">clique aqui</p>
+
+        <div class="container">
+            <br>
+           <button class="botao" onclick="mostrarTexto() ">ABRA</button>
+        </div>
+
+        <script>
+         function mostrarTexto() {
+            var texto = document.querySelector(".text")
+            texto.style.display = "block";
+            texto.innerHTML = "oi mae, voce é incrivel te amo paga minha pensao de 420 reais ta bom "
+
+        }
+        </script>
+</body>
+</html>
